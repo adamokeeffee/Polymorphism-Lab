@@ -64,6 +64,22 @@ public class ProductDB {
             myMusic.setArtist("Christopher");
             myMusic.setLabel("label land");
             myItem = myMusic;
+        }else if (productCode.equalsIgnoreCase("Oled")) {
+            TV myTV = new TV();
+            myTV.setCode(productCode);
+            myTV.setDescription("cfhjgiu");
+            myTV.setPrice(999.99);
+            myTV.setScreensize("1000inch");
+            myTV.setManufacture("samsung");
+            myItem = myTV;
+        }else if (productCode.equalsIgnoreCase("led")) {
+            TV myTV = new TV();
+            myTV.setCode(productCode);
+            myTV.setDescription("idvjio");
+            myTV.setPrice(400.00);
+            myTV.setScreensize("500inch");
+            myTV.setManufacture("philips");
+            myItem = myTV;
         }
 
         return myItem;
